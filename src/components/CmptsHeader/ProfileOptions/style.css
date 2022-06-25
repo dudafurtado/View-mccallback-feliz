@@ -1,0 +1,33 @@
+.profile-options {
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    position: absolute;
+    right: -59px;
+    bottom: -54px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 16px;
+}
+
+.profile-options img {
+    width: 2.4rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+
+.arrow-app {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 0;
+    height: 0;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #FFFF;
+
+}

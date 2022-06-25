@@ -1,0 +1,60 @@
+.GeneralSideBar {
+  width: 10%;
+  min-height: 100vh;
+  background: #f0f0f5;
+}
+
+.ContainerSideBar {
+  background: #f0f0f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.4rem;
+}
+
+.SlideBarIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.SlideBarIcon h2 {
+  margin-top: 1.35rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  letter-spacing: 0rem;
+}
+
+.ClientsSelected,
+.ClientsNotSelected,
+.DebtsSelected,
+.DebtsNotSelected {
+  margin-top: 8.2rem;
+}
+
+.HomeSelected,
+.ClientsSelected,
+.DebtsSelected {
+  color: #da0175;
+  border-right: 0.2rem solid #da0175;
+  fill: #da0175;
+}
+
+.HomeNotSelected,
+.ClientsNotSelected,
+.ClientsNotSelected {
+  color: #343447;
+}
+
+.HomeIcon {
+  color: #da0175;
+  fill: #da0175;
+  background-color: #da0175;
+  border: #da0175;
+  stroke: #da0175;
+}

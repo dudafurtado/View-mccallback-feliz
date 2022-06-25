@@ -1,0 +1,28 @@
+.ResumeContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.SumCards {
+  display: flex;
+  gap: 1.6rem;
+
+  margin-bottom: 2.4rem;
+}
+
+.DebtsCards {
+  display: flex;
+  gap: 1.6rem;
+
+  margin-bottom: 3.2rem;
+}
+
+.ClientsCards {
+  display: flex;
+  gap: 1.6rem;
+
+  margin-bottom: 3.7rem;
+}

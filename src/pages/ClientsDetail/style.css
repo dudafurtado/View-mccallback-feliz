@@ -1,0 +1,137 @@
+.ClientDetail {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+
+  background: #f8f8f9;
+}
+
+.ContentClientDetail {
+  position: relative;
+  padding: 0 3rem 2rem;
+  width: 90%;
+  min-height: 110vh;
+}
+
+.ClientDetailContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+}
+
+.DetailTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.DetailTitle h1 {
+  margin: 0 1.6rem;
+
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.ClientInfo,
+.ClientTableDebts {
+  background: #FFFFFF;
+  padding: 3rem;
+  border-radius: 30px;
+  margin-bottom: 2.4rem;
+}
+
+.TitleInfos,
+.TableTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.TitleInfos h3,
+.TableTitle h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+
+  display: flex;
+  align-items: center;
+
+  color: #3F3F55;
+}
+
+.TitleInfos button {
+  all: unset;
+  cursor: pointer;
+  padding: 0.4rem 6rem;
+  background: #F8F8F9;
+
+  border: 1px solid #DEDEE9;
+  border-radius: 10px;
+
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #0E8750;
+}
+
+.RequiredInfos,
+.OptionalInfos {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr 1.5fr 1fr 1fr 0.5fr;
+  gap: 0.5rem;
+}
+
+.RequiredInfos {
+  margin-bottom: 5.5rem;
+}
+
+.Information h4 {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  color: #3F3F55;
+
+  margin-bottom: 0.8rem;
+}
+
+.Information span {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  color: #3F3F55;
+}
+
+.TableTitle button {
+  all: unset;
+  cursor: pointer;
+  padding: 0.4rem 5.6rem;
+  gap: 4px;
+
+  background: #DA0175;
+  border-radius: 10px;
+
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #F8F8F9;
+}
+
+.ContainerClientDetail button:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}

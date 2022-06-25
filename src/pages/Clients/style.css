@@ -1,0 +1,19 @@
+.ClientsPage {
+  display: flex;
+  min-width: 100%;
+  background: #f8f8f9;
+}
+
+.ContentClients {
+  position: relative;
+  padding: 0 3rem 2rem;
+  width: 90%;
+}
+
+.ClientsListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  margin: 3rem 0;
+}

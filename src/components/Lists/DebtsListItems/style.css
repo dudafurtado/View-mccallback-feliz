@@ -1,0 +1,140 @@
+.DebtsListItems {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2.5rem 2.7rem 2.5rem 2.3rem;
+    background: #FFFFFF;
+    border-radius: 3.0rem;
+}
+
+.IndexDebtsList {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 0.95fr 1.3fr 0.8fr 1.8fr 0.4fr 0.4fr;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3F3F55;
+
+    margin-bottom: 3rem;
+}
+
+.IndexDebtsList div {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.EachDebt {
+    height: 7.2rem;
+
+    display: grid;
+    grid-template-areas: 'Name ID Value DueDate Status Description';
+    grid-template-columns: 1.5fr 1fr 0.95fr 1.3fr 0.8fr 1.8fr 0.4fr 0.4fr;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6E6E85;
+
+    border-top: 1px solid #EFF0F6;
+    cursor: pointer;
+
+    transition-duration: 1.2;
+}
+
+.EachDebt:hover {
+    background-color: #f0f0f5;
+    border-radius: 2.2rem;
+    transform: scale(1.03, 1.03);
+}
+
+.Expired {
+    width: 6.7rem;
+    height: 1.9rem;
+
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+.Pending {
+    width: 7.7rem;
+    height: 1.9rem;
+
+    background-color: #FCF6DC;
+    color: #C5A605;
+}
+
+.Paid {
+    width: 4.9rem;
+    height: 1.9rem;
+
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.EachDebt button {
+    all: unset;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.EachDebt button:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.EditWord {
+    color: #747488;
+}
+
+.DeleteWord {
+    color: #AE1100;
+}
+
+.ClientName {
+    grid-area: Name;
+
+    margin-left: 1.4rem;
+}
+
+.ClientID {
+    grid-area: ID;
+}
+
+.DebtValue {
+    grid: Value;
+}
+
+.DebtDueDate {
+    grid-area: DueDate;
+}
+
+.DebtsStatus {
+    grid-area: Status;
+
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.DebtsDescription {
+    grid-area: Description;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Sort {
+    cursor: pointer;
+}

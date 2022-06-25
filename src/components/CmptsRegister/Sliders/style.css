@@ -1,0 +1,9 @@
+.Sliders {
+    position: absolute;
+    bottom: 2.4rem;
+
+    display: flex;
+    gap: 0.8rem;
+
+    padding-top: 12rem;
+}

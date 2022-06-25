@@ -1,0 +1,137 @@
+.ClientsListItems {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2.5rem 2.7rem 2.5rem 2.3rem;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.IndexClientsList {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.2fr 1fr 1fr 1fr;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3F3F55;
+
+    margin-bottom: 3rem;
+}
+
+.ClientIndicator {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.EachClient {
+    height: 7.2rem;
+    
+    display: grid;
+    grid-template-areas: 'cl-name cl-cpf cl-email cl-phone cl-status cl-create';
+    grid-template-columns: 1.2fr 1fr 1.2fr 1fr 1fr 1fr;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6E6E85;
+
+    border-top: 1px solid #EFF0F6;
+    cursor: pointer;
+
+    transition-duration: 1.2;
+}
+
+.EachClient:hover {
+    background-color: #f0f0f5;
+    border-radius: 2.2rem;
+    transform: scale(1.03, 1.03);
+}
+
+.CreateDebtButton {
+    all: unset;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.NewDebtIcon {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.DebtWord {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #DA0175;
+}
+
+.CreateDebtButton:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.Owe {
+    width: 9.9rem;
+    height: 1.9rem;
+
+    color: #971D1D;
+
+    background: #FFEFEF;
+    border-radius: 8px;
+}
+
+.Ok {
+    width: 9.9rem;
+    height: 1.9rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #1FA7AF;
+
+    background: #EEF6F6;
+    border-radius: 8px;
+}
+
+.ClientListName {
+    grid-area: cl-name;
+
+    margin-left: 1.4rem;
+}
+
+.ClientListCPF {
+    grid-area: cl-cpf;
+}
+
+.ClientListEmail {
+    grid: cl-email;
+}
+
+.ClientListPhone {
+    grid-area: cl-phone;
+}
+
+.ClientListStatus {
+    grid-area: cl-status;
+
+    padding: 0px 8px;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.CreateDebtButton {
+    grid-area: cl-create;
+}
+
+.Sort {
+    cursor: pointer;
+}

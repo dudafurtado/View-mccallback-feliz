@@ -1,0 +1,56 @@
+.SignUpCompleted {
+    max-width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.4rem;
+}
+
+.SignUpCompleted section {
+    width: 54rem;
+    height: 44rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+
+    background-color: var(--aside-white);
+    border-radius: 30px;
+}
+
+.InformSignUp {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+    color: var(--title-gray);
+}
+
+.ButtonSignUp {
+    all: unset;
+    cursor: pointer;
+  
+    width: 160px;
+    height: 33px;
+
+    position: relative;
+    z-index: 1;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: var(--link-pink);
+    border-radius: 10px;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: var(--button-white);
+}

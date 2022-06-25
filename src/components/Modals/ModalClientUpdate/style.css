@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.backdrop-client {
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(2px);
+
+    min-width: 100%;
+    min-height: 110vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 10% 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.modal-client {
+    background-color: #FFFF;
+    border-radius: 30px;
+    width: 50%;
+    margin: 5rem;
+    padding: 4rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.close-btn-client {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    width: 1.7rem;
+    height: 1.8rem;
+
+    cursor: pointer;
+}
+
+.modal-client-title {
+    display: flex;
+    align-items: center;
+}
+
+.modal-img-clients {
+    height: 2.4rem;
+    margin-right: 2.5rem;
+}
+
+.modal-client h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.6rem;
+
+    color: #343447;
+}
+
+.container-inputs-client {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    position: relative;
+}
+
+.container-inputs-client input {
+    padding: 0.5rem 0.8rem;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 1rem;
+
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #667085;
+}
+
+.container-inputs-client label {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #344054;
+
+    margin-bottom: 6px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-duo-client {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-column {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-duo-client input {
+    width: 100%;
+}
+
+.container-input-duo-client {
+    width: 100%;
+}
+
+.container-city {
+    width: 65%;
+}
+
+.container-state {
+    width: 35%;
+}
+
+.div-btn-client {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    margin-top: 5rem;
+}
+
+.div-btn-client button {
+    width: 100%;
+
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+    gap: 4px;
+
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.btn-cancel {
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    color: #0E8750;
+}
+
+.btn-confirm {
+    background: #DA0175;
+    color: #F8F8F9;
+}
+
+.div-btn-client button:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.container-inputs-client span {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.4rem;
+
+    color: #E70000;
+}
+
+@media screen and (min-width:1200px) {
+    .modal-client {
+        width: 560px;
+    }
+
+}

@@ -1,0 +1,36 @@
+.Stepper {
+  display: flex;
+  gap: 1rem;
+}
+
+.Stepper img {
+  padding: 0.6rem;
+}
+
+.StepperInstructions {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.StepperInstructions div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.StepperTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: var(--stepper-green);
+}
+  
+.StepperDescription {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: var(--question-gray);
+}

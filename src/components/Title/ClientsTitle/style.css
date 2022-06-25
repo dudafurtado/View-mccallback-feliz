@@ -1,0 +1,107 @@
+.TitleClients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.TitleClients h1 {
+    margin: 0 1.6rem;
+
+    font-family: Montserrat;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: 0em;
+    color: #3f3f55;
+}
+
+.Title,
+.FormClients,
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.FormClients {
+    gap: 1.6rem;
+}
+
+.AddClients {
+    all: unset;
+    cursor: pointer;
+
+    width: 45%;
+    height: 100%;
+    padding: 0.5rem 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #da0175;
+    border-radius: 10px;
+}
+
+.AddClients h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 0px;
+    color: #f8f8f9;
+    margin-left: 0.66rem;
+}
+
+.Settings {
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+    border-radius: 1rem;
+}
+
+.Search {
+    position: relative;
+}
+
+.InputSearch {
+    height: 3.9rem;
+    width: 31.8rem;
+
+    outline: none;
+
+    padding: 1rem 1.4rem;
+    background-color: #ffffff;
+    border: 0.1rem solid #d0d5dd;
+    border-radius: 1rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 25px;
+
+    color: #3F3F55;
+}
+
+.InputSearch::placeholder {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 0px;
+    margin-left: 1.6rem;
+}
+
+.IconSearch {
+    cursor: pointer;
+    position: absolute;
+    right: 1.0rem;
+    z-index: 1;
+}

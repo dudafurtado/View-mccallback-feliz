@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.ModalDebtDetailsTitle h1 {
+    font-family: 'Montserrat';
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: 0em;
+    color: #3f3f55;
+}
+
+.ModalDebtDetailsTitle {
+    padding-bottom: 6%;
+}
+
+.CloseBtnDebtDetails {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    width: 17px;
+    height: 18px;
+
+    cursor: pointer;
+}
+
+.BackdropDebtDetails {
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(2px);
+
+    min-width: 100%;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalDebtDetails {
+    width: 65rem;
+    background-color: #FFFF;
+    border-radius: 3rem;
+    padding: 4rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.ModalDebtDetails strong {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3F3F55;
+    margin-bottom: 0.4rem;
+}
+
+.ModalDebtDetails span {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    color: #344054;
+    padding-bottom: 6%;
+}
+
+span.DetailsDescriptionText {
+    margin-top: 0.4rem;
+    color: #000000;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.FlexColumn span {
+    font-weight: 400;
+}
+
+span.DateValueSize {
+    font-size: 1.8rem;
+}
+
+span.DetailsDescriptionTtext {
+    color: #000000;
+}
+
+.ModalDebtDetailsTitle {
+    display: flex;
+    align-items: center;
+}
+
+.DetailsDuo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.ModalImgDebtDetails {
+    height: 4.0rem;
+    margin-right: 2.0rem;
+}
+
+span.ExpiredDetails {
+    width: 6.7rem;
+    height: 1.9rem;
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+span.PendingDetails {
+    width: 7.7rem;
+    height: 1.9rem;
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+
+    background-color: #FCF6DC;
+    color: #C5A605;
+}
+
+span.PaidDetails {
+    width: 4.9rem;
+    height: 1.9rem;
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}

@@ -1,0 +1,131 @@
+.DebtsListItemsClient {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2.5rem 2.7rem 2.5rem 2.3rem;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.IndexDebtsListClient {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 2fr 0.5fr 0.5fr;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3F3F55;
+
+    margin-bottom: 3rem;
+}
+
+.IndexDebtsListClient div {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.EachDebtClient {
+    height: 7.2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 2fr 0.5fr 0.5fr;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6E6E85;
+
+    padding: 1.8rem 0;
+    border-top: 1px solid #EFF0F6;
+    cursor: pointer;
+}
+
+.EachDebtClient:hover {
+    background-color: #f0f0f5;
+    border-radius: 2.2rem;
+    transform: scale(1.03, 1.03);
+}
+
+.Description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ExpiredClient {
+    width: 6.7rem;
+    height: 1.9rem;
+
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #971D1D;
+
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #FFEFEF;
+}
+
+.PendingClient {
+    width: 7.7rem;
+    height: 1.9rem;
+
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #C5A605;
+
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #FCF6DC;
+}
+
+.PaidClient {
+    width: 4.9rem;
+    height: 1.9rem;
+
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #1FA7AF;
+
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #EEF6F6;
+}
+
+.EachDebtClient button {
+    all: unset;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.EachDebtClient button:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.EditWord {
+    color: #747488;
+}
+
+.DeleteWord {
+    color: #AE1100;
+}
+
+.Sort {
+    cursor: pointer;
+}
+
+.DebtID {
+    margin-left: 1.4rem;
+}

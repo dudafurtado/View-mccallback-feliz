@@ -1,0 +1,31 @@
+.InputText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.InputTextType {
+    width: 34.8rem;
+  
+    outline: none;
+  
+    background-color: var(--input-white);
+    border: 0.1rem solid #D0D5DD;
+    box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+    border-radius: 0.8rem;
+    padding: 1.0rem 1.4rem;
+  
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--label-gray);
+}
+    
+.InputTextType::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--placeholder-gray);
+}

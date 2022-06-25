@@ -1,0 +1,65 @@
+.InputPassword {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    position: relative;
+}
+
+.LabelForm {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    color: var(--label-gray);
+}
+
+.ForgotPassword {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-bottom: 0.6rem;
+}
+  
+.LinkForm {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--link-pink);
+}
+
+.InputPasswordType {
+    width: 34.8rem;
+  
+    outline: none;
+  
+    background-color: var(--input-white);
+    border: 0.1rem solid #D0D5DD;
+    box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+    border-radius: 0.8rem;
+    padding: 1.0rem 1.4rem;
+  
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--label-gray);
+}
+    
+.InputPasswordType::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--placeholder-gray);
+}
+
+.InputPassword img {
+    width: 2.0rem;
+    height: 1.8rem;
+
+    position: absolute;
+    left: 31rem;
+    top: 4.72rem;
+}
